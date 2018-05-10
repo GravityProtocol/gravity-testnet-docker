@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  gravity_node:
+    image: graphenelab/gravity_node:t0.4
+    build:
+      context: .
+    restart: on-failure
+    ports:
+      - "8090:8090"
+      - "9090:9090"
+    expose:
+      - "8090"
+    volumes:
+      - ./data:/var/lib/gravity
+
