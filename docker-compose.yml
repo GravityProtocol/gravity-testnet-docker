@@ -13,4 +13,3 @@ services:
       - "8090"
     volumes:
       - ./data:/var/lib/gravity
-
