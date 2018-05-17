@@ -2,7 +2,7 @@ version: "3"
 
 services:
   gravity_node:
-    image: graphenelab/gravity_node:t0.4
+    image: graphenelab/gravity_node:t0.5
     build:
       context: .
     restart: on-failure
