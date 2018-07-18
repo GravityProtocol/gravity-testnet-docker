@@ -2,7 +2,7 @@ version: "3"
 
 services:
   gravity_node:
-    image: gravityprotocol/gravity_node:t0.9
+    image: gravityprotocol/gravity_node:t0.10
     build:
       context: .
     restart: on-failure
