@@ -15,4 +15,3 @@ services:
       - GRAVITYD_RESYNC=1
     volumes:
       - ./data:/var/lib/gravity
-
